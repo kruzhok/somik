@@ -1,0 +1,53 @@
+.Content {
+	margin: 0 40px;
+}
+
+.Content-row {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid MediumOrchid;
+
+;
+	padding: 40px 0;
+}
+
+.Content-text {
+	width: 70%;
+	padding: 0 40px 0 40px;
+	font-family: 'Old Standard TT', serif;
+	color:MediumOrchid;
+
+}
+
+.Content-text h2 {
+	font-size: 51px;
+	margin-bottom: 20px;
+}
+
+.Content-text p {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.Content-text img {
+	margin: 40px 20px 40px 0;
+	width: 200px;
+	height: 200px;
+	object-position: center;
+	object-fit: contain;
+	box-sizing: content-box;
+	padding: 40px;
+	background: #fff;
+}
+
+.Content-image {
+	width: 30%;
+	max-height: 300px;
+	object-fit: contain;
+	object-position: center;
+}
+
+body {
+	background-color: Beige;
+}
